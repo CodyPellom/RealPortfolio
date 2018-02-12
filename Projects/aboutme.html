@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title>a b o u t</title>
+ <link rel="stylesheet" href="css/style.css"/>
+ <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+ <script src="js/js.js"></script>
+ <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+
+ <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+ <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+ <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Satisfy" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Amiri|Cardo|Courgette|Kaushan+Script|Marck+Script|Playfair+Display+SC|Satisfy" rel="stylesheet">
+
+   
+    <header id="header">
+    <div class="content">
+    <div id="logo"><a href=""> Cody Pellom</a></div>
+    <nav id="nav">
+     <ul>
+     <li><a href="#slide1" class="active" title="Next Section" >p a s t</a></li>
+     <li><a href="#slide2" title="Next Section">e s s e n c e</a></li>
+     <li><a href="#slide3" title="Next Section">p r e s e n t</a></li>
+     <li><a href="#slide4" title="Next Section">l o g i c</a></li>
+     <li><a href="#slide5" title="Next Section">f u t u r e</a></li>
+     </ul>
+    </nav>
+    </div>
+    </header>
+
+  
+ <div id="slide1">
+ <div class="content">
+ <div id="christmas_tree"> </div>
+ <div id="snowflakes1"></div>
+ <div id="snowflakes2"></div>
+ <h2></h2>
+ <h1>p a s t</h1>
+ <div id="divider"> </div>
+ <h3 id="past-quote">I grew up in the north Georgia mountains. As a kid, I always had my head buried in 
+   my desktop computer, staying up late at night creating content. At times I was misunderstood; I chose
+  to surround myself with like-minded people who understood my passion for, what I know now is web development.</h3>
+ <div id="ribbon"></div>
+ <div id="new_year"> </div>
+ </div> 
+ </div> 
+ <div id="slide2">
+ <div class="content" >
+ <div class="quotes_container">
+ <h3 class="quotes">"The essence of the independent mind lies not in what it thinks, but in how it thinks."</h3>
+ <img src="https://i.imgur.com/Dcynt3A.jpg" align="left"/> <h4 class="author_name_gray">C h r i s t o p h e r  H i t c h e n s </h4>
+ </div> 
+ </div> 
+ </div> 
+ <div id="slide3">
+ <div class="content">
+ <div class="quotes_container">
+<h1 id="present">p r e s e n t</h1>
+ <h3 id = "myquote">As a student at Georgia State University and General Assembly, one of the most 
+   important things I do is to think programically. Breaking down the big ideas and turning them into 
+   actionable outcomes is what I strive to do everyday as a web developer. My goal is to find a team of 
+   exceptional individuals to share my knowledge and inspiration with. </h3>
+ <h4 class="author_name_white"></h4>
+ </div> 
+ </div> 
+ </div> 
+ <div id="slide4">
+ <div class="content">
+ <div class="quotes_container">
+ <h3 class="quotes">"When I am working on a problem I never think about beauty. I only think about how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong."
+   </h3>
+ <h4 class="author_name_gray">Buckminster Fuller</h4>
+ </div> 
+ </div> 
+ </div> 
+ <div id="slide5">
+ <div class="content">
+ <div class="quotes_container">
+  <h1>f u t u r e</h1>
+ <h3 class="quotes">I'm looking forward to my next opportunity. I'm working hard as a student at General
+   Assembly and concentrating on improving my skills on a daily basis. I'm excited about what the future
+   has in store for me.
+ </h3>
+ </div> 
+ </div> 
+ </div> 
+<script>$(document).ready(function() {
+    $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    &amp;amp;&amp;amp; location.hostname == this.hostname
+    &amp;amp;&amp;amp; this.hash.replace(/#/,'') ) {
+    var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+    var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+    if ($target) {
+    var targetOffset = $target.offset().top;
+    $(this).click(function() {
+    $("#nav li a").removeClass("active");
+    $(this).addClass('active');
+    $('html, body').animate({scrollTop: targetOffset}, 300);
+    return false;
+    });
+    }
+    }
+    });
+    
+    });
+
+    $(document).ready(function() {
+        $('a[href*=#]').each(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+          && location.hostname == this.hostname
+          && this.hash.replace(/#/,'') ) {
+            var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+            var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+             if ($target) {
+               var targetOffset = $target.offset().top;
+               $(this).click(function() {
+                $("#nav li a").removeClass("active");
+                $(this).addClass('active');
+                          $('html, body').animate({scrollTop: targetOffset}, 600);
+                          return false;
+                        });
+                     }
+                   }
+                 });
+               
+               });
+               $('html, body').animate({scrollTop: targetOffset}, 400);               </script>
+</body>
+</html>
