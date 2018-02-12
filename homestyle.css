@@ -1,0 +1,41 @@
+#navbar {
+    font-family: 'Bitter';
+    font-size: 30px;
+    color: pink;
+    display: flex;
+   flex-direction: row-reverse;
+}
+
+
+#header {
+font-family: 'Nanum Myeongjo', sans-serif;
+font-size: 95px;
+color: rgb(90, 90, 90);
+display: flex;
+justify-content: center;
+align-content: center;
+border: solid;
+border-color: rgb(252, 240, 221);
+
+}
+
+
+
+#headline {
+    font-family: 'Nanum Myeongjo', sans-serif;
+    font-size: 30px;
+    color: rgb(177, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+#headline:hover {
+    text-decoration: line-through;
+    text-decoration-color:blanchedalmond;
+}
+
+body {
+
+    background-color: blanchedalmond;
+}
