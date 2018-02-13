@@ -1,3 +1,23 @@
+
+html {
+
+width:100%; height:100%; 
+      background:#fff url("https://i.imgur.com/lUjggkn.jpg") center center no-repeat;
+      background-attachment: fixed;
+      background-size:100% auto;
+} 
+
+#burroughs {
+        
+   width: 80%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   position: absolute;
+
+}
+
 #navbar {
     font-family: 'Bitter';
     font-size: 30px;
@@ -35,7 +55,4 @@ border-color: rgb(252, 240, 221);
     text-decoration-color:blanchedalmond;
 }
 
-body {
 
-    background-color: blanchedalmond;
-}
