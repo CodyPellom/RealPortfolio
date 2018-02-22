@@ -1,0 +1,46 @@
+html {
+    background-color: rgb(45, 45, 45);
+
+}
+body {
+    background-color: rgb(45, 45, 45);
+
+}
+
+.m-nav {
+    background-color: rgb(173, 173, 173);
+
+
+}
+
+.grid {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 30%;
+
+    
+}
+
+#info-1, #info-2, #info-3 {
+ background-color: beige;
+ width:425px;
+ height: 425px;
+ margin: 3%;
+ 
+}
+
+#info-1 {
+
+
+}
+
+#info-2 {
+
+
+}
+
+#info-3 {
+
+}

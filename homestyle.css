@@ -1,71 +1,58 @@
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-#header, .container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    font-family: 'Nanum Myeongjo', sans-serif;
-    font-size: 95px;
-    color: rgb(182, 4, 4);
-  
-}
-
-#headline, .container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    font-family: 'Nanum Myeongjo', sans-serif;
-    font-size: 30px;
-    color: rgb(184, 8, 8);
-   
-}
-
-#headline:hover {
-    text-decoration: line-through;
-}
 html {
-    background-color: rgb(45, 45, 45)
+    background-color: rgb(45, 45, 45);
+}
+
+body {
+    background-color: rgb(45,45,45);
 }
 
 
 
 
+#headline {
+   
+display: flex;
+text-align: center;
+display: flex;
+justify-content: center;
+align-content: center;
+font-family: "Lora";
+font-size: 90px;
+color: rgb(147, 147, 147);
 
+}
 
+#sub-header {
+    font-family: "Lora";
+    font-size: 45px;
+    color: rgb(193, 193, 193);
+    display: flex;
+text-align: center;
+display: flex;
+justify-content: center;
+align-content: center;
 
+}
 
+#enter {
+font-family: "Lora";
+font-size: 35px;
+background-color: grey;
+border: whitesmoke;
+border-style: solid;
+text-align: center;
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 10px;
 
+}
 
+.button {
+padding-left: 47%;
 
+}
+.flexbox {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    padding-top: 400px;
+}

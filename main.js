@@ -1,14 +1,3 @@
-    $(document).ready(function () {
-    $("#header").hide();
-    $("#headline").hide();
-    $("nav").hide();
+$(document).ready() {
 
-
-    $("#header").fadeIn(4000);
-    $("#headline").fadeIn(5200);
-    $("nav").fadeIn(8000);
-   
-
-});
-   
-
+}
