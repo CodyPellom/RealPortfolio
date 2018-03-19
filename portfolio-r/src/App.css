@@ -1,14 +1,23 @@
 .App {
   text-align: center;
 }
+html, body {
+background-color: rgba(170, 164, 164, 0.502);
 
+
+
+}
+footer.page-footer{
+  color: red;
+  background-color: gray;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(255, 0, 0);
   height: 150px;
   padding: 20px;
   color: white;
@@ -25,4 +34,65 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.nav-wrapper {
+
+background-color: dimgray;
+
+}
+
+
+
+.activator {
+  height: 200px;
+  
+  }
+
+.card .card-reveal {
+
+  background-color: dimgray;
+  height: 100%;
+  
+}
+
+.card-content {
+  background-color: dimgray;
+  height: 100%;
+  
+}
+
+.card.small {
+
+max-width: 300px;
+min-height: 300px;
+
+
+
+}
+
+.tlt {
+
+  font-size: 30px;
+  font-family: 'Libre Baskerville';
+  color: rgb(41, 41, 41);
+}
+
+section {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+section.visible { 
+  opacity: 1;
+}
+
+#mainSubText{
+
+  font-family: Old Standard TT;
+}
+
+#mainTopText{
+
+  font-family: Signika;
 }
